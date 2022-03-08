@@ -14,6 +14,7 @@ export default function Articles() {
         api.getArticles().then((articles) => {
             setArticles(articles)
             setIsLoading(false)
+            setError(null)
         })
         .catch((err) => {
             setError(err.message);
