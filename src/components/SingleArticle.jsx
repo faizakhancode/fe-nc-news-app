@@ -1,12 +1,39 @@
-import {Link} from 'react-router-dom';
+import { useEffect, useState } from "react";
+import { useParams } from "react-router-dom"
+import { getSingleArticle } from "./utils/api";
 
-export default function SingleArticle({ article_id, title, topic, author, body, votes}) {
-    return (
-        <article className="articles_singleArticle">
-            <h3 className="singleArticle_title">{title}</h3>
-            <h4 className="singleArticle_author">Author - {author}</h4>
-            <h5 className="singleArticle_topic"> {topic}</h5>
-            <p className="singleArticle_votes">Votes - {votes}</p>
+
+export default function SingleArticle() {
+const [article, setArticle] =useState([]);
+const [isLoading, setIsLoading] = useState(true);
+const [error, setError] = useState(null);
+const {article_id} = useParams();
+
+useEffect(() => {
+    setIsLoading(true);
+    getSingleArticle(article_id).then((articlesFromApi) => {
+        setArticle(articlesFromApi)
+        setIsLoading(false)
+        setError(null)
+    }) .catch((err) => {
+        setError(err.message);
+    })
+},[article_id]);
+
+
+if (error) {
+    return <p>{ error }</p>
+}
+if(isLoading) return <p> Loading....</p>
+    return  (
+     <article>
+        <article className="articles_single_Article">
+            <h3 className="single_Article_title">{article.title}</h3>
+            <p className="single_Article_body">{article.body}</p>
+            <p className="single_Article_author"> {article.author}</p>
+            <p className="single_Article_date"> {String(article.created_at).substring(0,10)}</p>
+            <p className="single_Article_topic"> {article.topic}</p>
+            <p className="single_Article_votes">{article.votes}</p>
         </article>
-    )
+    </article>)
 }
