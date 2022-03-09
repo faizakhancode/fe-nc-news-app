@@ -6,13 +6,12 @@ export default function Nav() {
     const [topics, setTopics] = useState([]);
 
     useEffect(() => {
-        getTopics().then((data) => {
-            setTopics(data)
+        getTopics().then((articleTopicFromAPI) => {
+            setTopics(articleTopicFromAPI)
         })
     }, [])
     return (
         <nav className="navbar">
-            <Link to="/" className="navlink">Home</Link>
             <h3> happy reading!</h3>
             {topics.map((topic) => {
                 return (
