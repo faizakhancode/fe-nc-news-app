@@ -2,16 +2,18 @@ import { useEffect, useState } from "react";
 import {Link} from "react-router-dom";
 import * as api from "./utils/api.js";
 import SingleArticle from "./SingleArticle.jsx";
-
+import { useParams } from "react-router-dom";
 
 export default function Articles() {
     const [articles, setArticles] = useState([]);
     const [isLoading, setIsLoading] = useState(true);
     const [error, setError] = useState(null);
+    const {slug} = useParams();
+
 
     useEffect(() => {
         setIsLoading(true);
-        api.getArticles().then((articles) => {
+        api.getArticles(slug).then((articles) => {
             setArticles(articles)
             setIsLoading(false)
             setError(null)
@@ -19,7 +21,7 @@ export default function Articles() {
         .catch((err) => {
             setError(err.message);
         })
-    }, [])
+    }, [slug])
 
     if (error) {
         return <p>{ error }</p>

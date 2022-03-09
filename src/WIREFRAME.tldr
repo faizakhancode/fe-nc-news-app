@@ -9391,7 +9391,3371 @@
         "id": "a361f7c4-ad2e-48d7-18ea-49db53b81162",
         "name": "New Page",
         "childIndex": 6,
-        "shapes": {},
+        "shapes": {
+          "05ec8f4e-1d8c-4d99-2803-89e484e8d5ba": {
+            "id": "05ec8f4e-1d8c-4d99-2803-89e484e8d5ba",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "a361f7c4-ad2e-48d7-18ea-49db53b81162",
+            "childIndex": 1,
+            "point": [
+              616.86,
+              411.15
+            ],
+            "size": [
+              306.21,
+              415.7
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "green",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "9c193f49-e0d8-4ec6-19e4-0c154380f876": {
+            "id": "9c193f49-e0d8-4ec6-19e4-0c154380f876",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "a361f7c4-ad2e-48d7-18ea-49db53b81162",
+            "childIndex": 2,
+            "point": [
+              634.04,
+              423.19
+            ],
+            "size": [
+              276.33,
+              46.78
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "gray",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "2f2b9eb2-7ea0-41e0-1597-f7ea05fc400e": {
+            "id": "2f2b9eb2-7ea0-41e0-1597-f7ea05fc400e",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "a361f7c4-ad2e-48d7-18ea-49db53b81162",
+            "childIndex": 3,
+            "point": [
+              638.41,
+              566.55
+            ],
+            "size": [
+              253.62,
+              248.87
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "lightGray",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "bfbeaa78-f2f8-467a-1721-7914161311fb": {
+            "id": "bfbeaa78-f2f8-467a-1721-7914161311fb",
+            "type": "text",
+            "name": "Text",
+            "parentId": "a361f7c4-ad2e-48d7-18ea-49db53b81162",
+            "childIndex": 4,
+            "point": [
+              712.07,
+              565.55
+            ],
+            "rotation": 0,
+            "text": "Article title",
+            "style": {
+              "color": "gray",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 0.8804402466954823,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "cdbb4b09-4d24-4d4e-1082-eb97584c9f69": {
+            "id": "cdbb4b09-4d24-4d4e-1082-eb97584c9f69",
+            "type": "text",
+            "name": "Text",
+            "parentId": "a361f7c4-ad2e-48d7-18ea-49db53b81162",
+            "childIndex": 5,
+            "point": [
+              726.48,
+              675.02
+            ],
+            "rotation": 0,
+            "text": "Authour",
+            "style": {
+              "color": "gray",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 0.7152642751167884,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "682fd8ea-2b6f-431b-3dfa-f4af66d16efb": {
+            "id": "682fd8ea-2b6f-431b-3dfa-f4af66d16efb",
+            "type": "text",
+            "name": "Text",
+            "parentId": "a361f7c4-ad2e-48d7-18ea-49db53b81162",
+            "childIndex": 6,
+            "point": [
+              649.17,
+              721.79
+            ],
+            "rotation": 0,
+            "text": "date created:",
+            "style": {
+              "color": "gray",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 0.5970458039619333,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "32e0de2e-2a93-4f7d-06e8-dad4d2cbbf7b": {
+            "id": "32e0de2e-2a93-4f7d-06e8-dad4d2cbbf7b",
+            "type": "text",
+            "name": "Text",
+            "parentId": "a361f7c4-ad2e-48d7-18ea-49db53b81162",
+            "childIndex": 7,
+            "point": [
+              651.14,
+              696.52
+            ],
+            "rotation": 0,
+            "text": "topic:",
+            "style": {
+              "color": "gray",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 0.5622460522757118,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "01f5bae1-4491-4552-12b7-5e440acc1683": {
+            "id": "01f5bae1-4491-4552-12b7-5e440acc1683",
+            "type": "text",
+            "name": "Text",
+            "parentId": "a361f7c4-ad2e-48d7-18ea-49db53b81162",
+            "childIndex": 8,
+            "point": [
+              650.69,
+              747.59
+            ],
+            "rotation": 0,
+            "text": "comments:",
+            "style": {
+              "color": "gray",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 0.5560675242287261,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "1925430c-3be6-45ab-0f3f-fb15f0deffd9": {
+            "id": "1925430c-3be6-45ab-0f3f-fb15f0deffd9",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "a361f7c4-ad2e-48d7-18ea-49db53b81162",
+            "childIndex": 9,
+            "point": [
+              629.24,
+              488.68
+            ],
+            "size": [
+              88.74,
+              28.07
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "orange",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "94b0c80f-15f6-4516-06e4-b47f59048d5a": {
+            "id": "94b0c80f-15f6-4516-06e4-b47f59048d5a",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "a361f7c4-ad2e-48d7-18ea-49db53b81162",
+            "childIndex": 10,
+            "point": [
+              755.6,
+              531.44
+            ],
+            "size": [
+              106.23,
+              28.07
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "lightGray",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "f36c3d5c-df79-4f6b-0605-7426e4c27c95": {
+            "id": "f36c3d5c-df79-4f6b-0605-7426e4c27c95",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "a361f7c4-ad2e-48d7-18ea-49db53b81162",
+            "childIndex": 11,
+            "point": [
+              718.41,
+              787.03
+            ],
+            "size": [
+              32.86,
+              17.37
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "green",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "2d9e81cd-1a0d-4d5d-0f0d-961bd0eef024": {
+            "id": "2d9e81cd-1a0d-4d5d-0f0d-961bd0eef024",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "a361f7c4-ad2e-48d7-18ea-49db53b81162",
+            "childIndex": 12,
+            "point": [
+              770.71,
+              787.69
+            ],
+            "size": [
+              38.84,
+              17.37
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "red",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "5e1a56ff-3631-4349-06c4-415d4da7720f": {
+            "id": "5e1a56ff-3631-4349-06c4-415d4da7720f",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "a361f7c4-ad2e-48d7-18ea-49db53b81162",
+            "childIndex": 13,
+            "point": [
+              668.15,
+              593.85
+            ],
+            "size": [
+              193,
+              81
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "lightGray",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "9efaf0ce-ff3e-49ae-230b-34075b1dd862": {
+            "id": "9efaf0ce-ff3e-49ae-230b-34075b1dd862",
+            "type": "text",
+            "name": "Text",
+            "parentId": "a361f7c4-ad2e-48d7-18ea-49db53b81162",
+            "childIndex": 14,
+            "point": [
+              693.15,
+              596.69
+            ],
+            "rotation": 0,
+            "text": "The actual articles information\n the actual articles information  \nThe actual articles information\n the actual articles information\nThe actual articles information\n the actual articles information",
+            "style": {
+              "color": "lightGray",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 0.42594813946703153,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "ed05c7ce-f3c6-4cc5-1e1b-cfd48e37e0d5": {
+            "id": "ed05c7ce-f3c6-4cc5-1e1b-cfd48e37e0d5",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "a361f7c4-ad2e-48d7-18ea-49db53b81162",
+            "childIndex": 15,
+            "point": [
+              725.78,
+              489.31
+            ],
+            "size": [
+              88.74,
+              28.07
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "orange",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "4960caf8-df79-45be-0cb7-420ea79d4135": {
+            "id": "4960caf8-df79-45be-0cb7-420ea79d4135",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "a361f7c4-ad2e-48d7-18ea-49db53b81162",
+            "childIndex": 16,
+            "point": [
+              822.78,
+              489.31
+            ],
+            "size": [
+              88.74,
+              28.07
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "orange",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "e8ab6fec-f7fe-493c-19fa-b2a1b4a57995": {
+            "id": "e8ab6fec-f7fe-493c-19fa-b2a1b4a57995",
+            "type": "text",
+            "name": "Text",
+            "parentId": "a361f7c4-ad2e-48d7-18ea-49db53b81162",
+            "childIndex": 17,
+            "point": [
+              634.65,
+              483.85
+            ],
+            "rotation": 0,
+            "text": "Cooking ",
+            "style": {
+              "color": "lightGray",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "1bfb0832-e339-45c2-1c13-6392d67ef090": {
+            "id": "1bfb0832-e339-45c2-1c13-6392d67ef090",
+            "type": "text",
+            "name": "Text",
+            "parentId": "a361f7c4-ad2e-48d7-18ea-49db53b81162",
+            "childIndex": 18,
+            "point": [
+              725.65,
+              483.85
+            ],
+            "rotation": 0,
+            "text": "Football",
+            "style": {
+              "color": "lightGray",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "1a9bb60d-f60b-42c1-2145-2869f4f26995": {
+            "id": "1a9bb60d-f60b-42c1-2145-2869f4f26995",
+            "type": "text",
+            "name": "Text",
+            "parentId": "a361f7c4-ad2e-48d7-18ea-49db53b81162",
+            "childIndex": 19,
+            "point": [
+              830.15,
+              481.85
+            ],
+            "rotation": 0,
+            "text": "Coding",
+            "style": {
+              "color": "lightGray",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "0009bd38-c8e6-4cb0-36f1-6e4d9f122a47": {
+            "id": "0009bd38-c8e6-4cb0-36f1-6e4d9f122a47",
+            "type": "text",
+            "name": "Text",
+            "parentId": "a361f7c4-ad2e-48d7-18ea-49db53b81162",
+            "childIndex": 20,
+            "point": [
+              672.65,
+              523.85
+            ],
+            "rotation": 0,
+            "text": "Sort by:",
+            "style": {
+              "color": "lightGray",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "7ed5d2d6-ada3-4bf8-2a78-1826f12ef1ae": {
+            "id": "7ed5d2d6-ada3-4bf8-2a78-1826f12ef1ae",
+            "type": "text",
+            "name": "Text",
+            "parentId": "a361f7c4-ad2e-48d7-18ea-49db53b81162",
+            "childIndex": 23,
+            "point": [
+              638.15,
+              432.85
+            ],
+            "rotation": 0,
+            "text": "NC",
+            "style": {
+              "color": "white",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 0.8157894736842105,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "111e152c-57b4-450a-3902-39d94592fcb0": {
+            "id": "111e152c-57b4-450a-3902-39d94592fcb0",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "a361f7c4-ad2e-48d7-18ea-49db53b81162",
+            "childIndex": 24,
+            "point": [
+              669.15,
+              437.85
+            ],
+            "size": [
+              33,
+              19
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "red",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "000cc200-8056-464e-3d59-1ab695d4c36f": {
+            "id": "000cc200-8056-464e-3d59-1ab695d4c36f",
+            "type": "draw",
+            "name": "Draw",
+            "parentId": "a361f7c4-ad2e-48d7-18ea-49db53b81162",
+            "childIndex": 25,
+            "point": [
+              676.15,
+              441.85
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "red",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "points": [
+              [
+                5,
+                10,
+                0.5
+              ],
+              [
+                5,
+                10,
+                0.5
+              ],
+              [
+                6,
+                9,
+                0.5
+              ],
+              [
+                7,
+                9,
+                0.5
+              ],
+              [
+                8,
+                9,
+                0.5
+              ],
+              [
+                9,
+                9,
+                0.5
+              ],
+              [
+                10,
+                9,
+                0.5
+              ],
+              [
+                11,
+                8,
+                0.5
+              ],
+              [
+                12,
+                8,
+                0.5
+              ],
+              [
+                13,
+                8,
+                0.5
+              ],
+              [
+                14,
+                8,
+                0.5
+              ],
+              [
+                15,
+                8,
+                0.5
+              ],
+              [
+                16,
+                8,
+                0.5
+              ],
+              [
+                17,
+                8,
+                0.5
+              ],
+              [
+                18,
+                8,
+                0.5
+              ],
+              [
+                19,
+                8,
+                0.5
+              ],
+              [
+                19,
+                7,
+                0.5
+              ],
+              [
+                19,
+                6,
+                0.5
+              ],
+              [
+                19,
+                5,
+                0.5
+              ],
+              [
+                19,
+                4,
+                0.5
+              ],
+              [
+                19,
+                3,
+                0.5
+              ],
+              [
+                19,
+                2,
+                0.5
+              ],
+              [
+                19,
+                1,
+                0.5
+              ],
+              [
+                19,
+                0,
+                0.5
+              ],
+              [
+                18,
+                0,
+                0.5
+              ],
+              [
+                17,
+                0,
+                0.5
+              ],
+              [
+                16,
+                0,
+                0.5
+              ],
+              [
+                15,
+                0,
+                0.5
+              ],
+              [
+                14,
+                0,
+                0.5
+              ],
+              [
+                13,
+                0,
+                0.5
+              ],
+              [
+                12,
+                0,
+                0.5
+              ],
+              [
+                11,
+                0,
+                0.5
+              ],
+              [
+                10,
+                0,
+                0.5
+              ],
+              [
+                9,
+                0,
+                0.5
+              ],
+              [
+                8,
+                0,
+                0.5
+              ],
+              [
+                7,
+                0,
+                0.5
+              ],
+              [
+                6,
+                0,
+                0.5
+              ],
+              [
+                5,
+                0,
+                0.5
+              ],
+              [
+                4,
+                0,
+                0.5
+              ],
+              [
+                3,
+                0,
+                0.5
+              ],
+              [
+                2,
+                0,
+                0.5
+              ],
+              [
+                1,
+                0,
+                0.5
+              ],
+              [
+                0,
+                0,
+                0.5
+              ],
+              [
+                0,
+                1,
+                0.5
+              ],
+              [
+                0,
+                2,
+                0.5
+              ],
+              [
+                0,
+                3,
+                0.5
+              ],
+              [
+                0,
+                4,
+                0.5
+              ],
+              [
+                0,
+                5,
+                0.5
+              ],
+              [
+                0,
+                6,
+                0.5
+              ],
+              [
+                0,
+                7,
+                0.5
+              ],
+              [
+                0,
+                8,
+                0.5
+              ],
+              [
+                0,
+                9,
+                0.5
+              ],
+              [
+                1,
+                9,
+                0.5
+              ],
+              [
+                3,
+                9,
+                0.5
+              ],
+              [
+                4,
+                9,
+                0.5
+              ],
+              [
+                5,
+                9,
+                0.5
+              ],
+              [
+                6,
+                9,
+                0.5
+              ],
+              [
+                7,
+                9,
+                0.5
+              ],
+              [
+                8,
+                9,
+                0.5
+              ],
+              [
+                9,
+                9,
+                0.5
+              ],
+              [
+                10,
+                9,
+                0.5
+              ],
+              [
+                11,
+                9,
+                0.5
+              ],
+              [
+                12,
+                9,
+                0.5
+              ],
+              [
+                13,
+                9,
+                0.5
+              ],
+              [
+                13,
+                8,
+                0.5
+              ],
+              [
+                14,
+                7,
+                0.5
+              ],
+              [
+                15,
+                7,
+                0.5
+              ],
+              [
+                15,
+                6,
+                0.5
+              ],
+              [
+                16,
+                6,
+                0.5
+              ],
+              [
+                15,
+                6,
+                0.5
+              ],
+              [
+                14,
+                6,
+                0.5
+              ],
+              [
+                13,
+                6,
+                0.5
+              ],
+              [
+                12,
+                6,
+                0.5
+              ],
+              [
+                11,
+                5,
+                0.5
+              ],
+              [
+                10,
+                5,
+                0.5
+              ],
+              [
+                9,
+                5,
+                0.5
+              ],
+              [
+                8,
+                5,
+                0.5
+              ],
+              [
+                9,
+                5,
+                0.5
+              ],
+              [
+                10,
+                5,
+                0.5
+              ],
+              [
+                11,
+                5,
+                0.5
+              ],
+              [
+                12,
+                5,
+                0.5
+              ],
+              [
+                13,
+                5,
+                0.5
+              ],
+              [
+                14,
+                5,
+                0.5
+              ],
+              [
+                15,
+                5,
+                0.5
+              ],
+              [
+                16,
+                5,
+                0.5
+              ],
+              [
+                17,
+                5,
+                0.5
+              ],
+              [
+                18,
+                5,
+                0.5
+              ],
+              [
+                19,
+                5,
+                0.5
+              ],
+              [
+                20,
+                5,
+                0.5
+              ],
+              [
+                21,
+                5,
+                0.5
+              ],
+              [
+                21,
+                6,
+                0.5
+              ],
+              [
+                21,
+                7,
+                0.5
+              ],
+              [
+                21,
+                8,
+                0.5
+              ],
+              [
+                20,
+                8,
+                0.5
+              ],
+              [
+                19,
+                8,
+                0.5
+              ],
+              [
+                18,
+                8,
+                0.5
+              ],
+              [
+                17,
+                8,
+                0.5
+              ],
+              [
+                16,
+                8,
+                0.5
+              ],
+              [
+                15,
+                8,
+                0.5
+              ],
+              [
+                14,
+                8,
+                0.5
+              ],
+              [
+                13,
+                8,
+                0.5
+              ],
+              [
+                12,
+                8,
+                0.5
+              ],
+              [
+                11,
+                8,
+                0.5
+              ],
+              [
+                10,
+                8,
+                0.5
+              ],
+              [
+                9,
+                8,
+                0.5
+              ],
+              [
+                8,
+                7,
+                0.5
+              ],
+              [
+                7,
+                7,
+                0.5
+              ],
+              [
+                6,
+                7,
+                0.5
+              ],
+              [
+                5,
+                7,
+                0.5
+              ],
+              [
+                4,
+                6,
+                0.5
+              ],
+              [
+                4,
+                5,
+                0.5
+              ],
+              [
+                4,
+                4,
+                0.5
+              ],
+              [
+                4,
+                3,
+                0.5
+              ]
+            ],
+            "isComplete": true
+          },
+          "ee5c3674-110a-4f17-1529-d26a5fbef559": {
+            "id": "ee5c3674-110a-4f17-1529-d26a5fbef559",
+            "type": "text",
+            "name": "Text",
+            "parentId": "a361f7c4-ad2e-48d7-18ea-49db53b81162",
+            "childIndex": 26,
+            "point": [
+              664.15,
+              429.85
+            ],
+            "rotation": 0,
+            "text": "news",
+            "style": {
+              "color": "lightGray",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 0.7368421052631579,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "e753f348-f791-4469-2e0c-5d99601743f5": {
+            "id": "e753f348-f791-4469-2e0c-5d99601743f5",
+            "type": "text",
+            "name": "Text",
+            "parentId": "a361f7c4-ad2e-48d7-18ea-49db53b81162",
+            "childIndex": 27,
+            "point": [
+              851.65,
+              421.85
+            ],
+            "rotation": 0,
+            "text": "login",
+            "style": {
+              "color": "blue",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "f8fa3521-0b3b-4d15-2790-c33cbf8f500f": {
+            "id": "f8fa3521-0b3b-4d15-2790-c33cbf8f500f",
+            "type": "arrow",
+            "name": "Arrow",
+            "parentId": "a361f7c4-ad2e-48d7-18ea-49db53b81162",
+            "childIndex": 28,
+            "point": [
+              852.15,
+              456.85
+            ],
+            "rotation": 0,
+            "bend": 0,
+            "handles": {
+              "start": {
+                "id": "start",
+                "index": 0,
+                "point": [
+                  0,
+                  0
+                ],
+                "canBind": true
+              },
+              "end": {
+                "id": "end",
+                "index": 1,
+                "point": [
+                  51,
+                  0
+                ],
+                "canBind": true
+              },
+              "bend": {
+                "id": "bend",
+                "index": 2,
+                "point": [
+                  25.5,
+                  0
+                ]
+              }
+            },
+            "decorations": {},
+            "style": {
+              "color": "lightGray",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "0953ef6b-987e-4d53-3b1f-5707d9006fac": {
+            "id": "0953ef6b-987e-4d53-3b1f-5707d9006fac",
+            "type": "text",
+            "name": "Text",
+            "parentId": "a361f7c4-ad2e-48d7-18ea-49db53b81162",
+            "childIndex": 29,
+            "point": [
+              689,
+              343
+            ],
+            "rotation": 0,
+            "text": "All Aritcles\ncomponent ",
+            "style": {
+              "color": "green",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1.1695606313873932,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "1edfb50d-a216-4931-0933-dfe83772cef3": {
+            "id": "1edfb50d-a216-4931-0933-dfe83772cef3",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "a361f7c4-ad2e-48d7-18ea-49db53b81162",
+            "childIndex": 30,
+            "point": [
+              947.22,
+              411.49
+            ],
+            "size": [
+              306.21,
+              415.7
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "cyan",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "a551c27a-47fb-4d61-0af1-b4f5b63c25c9": {
+            "id": "a551c27a-47fb-4d61-0af1-b4f5b63c25c9",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "a361f7c4-ad2e-48d7-18ea-49db53b81162",
+            "childIndex": 31,
+            "point": [
+              963.4,
+              423.53
+            ],
+            "size": [
+              276.33,
+              46.78
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "gray",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "be36e37e-79ba-4f21-13df-7f48f537597a": {
+            "id": "be36e37e-79ba-4f21-13df-7f48f537597a",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "a361f7c4-ad2e-48d7-18ea-49db53b81162",
+            "childIndex": 32,
+            "point": [
+              959.77,
+              510.9
+            ],
+            "size": [
+              280.62,
+              300.87
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "lightGray",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "6a922e47-dd10-47a9-2e44-bbbe9d3a8710": {
+            "id": "6a922e47-dd10-47a9-2e44-bbbe9d3a8710",
+            "type": "text",
+            "name": "Text",
+            "parentId": "a361f7c4-ad2e-48d7-18ea-49db53b81162",
+            "childIndex": 34,
+            "point": [
+              1001.43,
+              505.9
+            ],
+            "rotation": 0,
+            "text": "Single Article title",
+            "style": {
+              "color": "gray",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1.113497959056051,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "b9de2639-1198-4266-0488-d5e765b880b0": {
+            "id": "b9de2639-1198-4266-0488-d5e765b880b0",
+            "type": "text",
+            "name": "Text",
+            "parentId": "a361f7c4-ad2e-48d7-18ea-49db53b81162",
+            "childIndex": 35,
+            "point": [
+              986.84,
+              639.36
+            ],
+            "rotation": 0,
+            "text": "Authour",
+            "style": {
+              "color": "gray",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 0.6471438679628085,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "d4ab7f25-c367-4a08-2f1d-662ed534cbcf": {
+            "id": "d4ab7f25-c367-4a08-2f1d-662ed534cbcf",
+            "type": "text",
+            "name": "Text",
+            "parentId": "a361f7c4-ad2e-48d7-18ea-49db53b81162",
+            "childIndex": 36,
+            "point": [
+              985.53,
+              656.14
+            ],
+            "rotation": 0,
+            "text": "date created:",
+            "style": {
+              "color": "gray",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 0.5511192036571695,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "f527b3f9-3e5a-4241-2b3a-e229542b4201": {
+            "id": "f527b3f9-3e5a-4241-2b3a-e229542b4201",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "a361f7c4-ad2e-48d7-18ea-49db53b81162",
+            "childIndex": 37,
+            "point": [
+              977.6,
+              480.14
+            ],
+            "size": [
+              77.74,
+              20.35
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "yellow",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "4ef65973-0809-4422-3f1d-6b6d2aab454f": {
+            "id": "4ef65973-0809-4422-3f1d-6b6d2aab454f",
+            "type": "text",
+            "name": "Text",
+            "parentId": "a361f7c4-ad2e-48d7-18ea-49db53b81162",
+            "childIndex": 38,
+            "point": [
+              950.25,
+              364.82
+            ],
+            "rotation": 0,
+            "text": "SINGLE ARTICLE component ",
+            "style": {
+              "color": "cyan",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1.1695606313873932,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "069072ce-b5e6-4516-24e9-1ffee902b278": {
+            "id": "069072ce-b5e6-4516-24e9-1ffee902b278",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "a361f7c4-ad2e-48d7-18ea-49db53b81162",
+            "childIndex": 39,
+            "point": [
+              1062.17,
+              480.61
+            ],
+            "size": [
+              77.74,
+              20.35
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "yellow",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "61190aa6-01dc-4e69-230f-9e907e816503": {
+            "id": "61190aa6-01dc-4e69-230f-9e907e816503",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "a361f7c4-ad2e-48d7-18ea-49db53b81162",
+            "childIndex": 40,
+            "point": [
+              1147.14,
+              480.61
+            ],
+            "size": [
+              77.74,
+              20.35
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "yellow",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "3be3c4ce-4054-4fa0-3f79-569a936cf8d7": {
+            "id": "3be3c4ce-4054-4fa0-3f79-569a936cf8d7",
+            "type": "text",
+            "name": "Text",
+            "parentId": "a361f7c4-ad2e-48d7-18ea-49db53b81162",
+            "childIndex": 41,
+            "point": [
+              982.34,
+              476.64
+            ],
+            "rotation": 0,
+            "text": "Cooking ",
+            "style": {
+              "color": "lightGray",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 0.725,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "f8edbbb8-7928-481f-08b5-552c91c10fae": {
+            "id": "f8edbbb8-7928-481f-08b5-552c91c10fae",
+            "type": "text",
+            "name": "Text",
+            "parentId": "a361f7c4-ad2e-48d7-18ea-49db53b81162",
+            "childIndex": 42,
+            "point": [
+              1062.06,
+              476.64
+            ],
+            "rotation": 0,
+            "text": "Football",
+            "style": {
+              "color": "lightGray",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 0.725,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "67f52749-2c15-4dc8-1f30-ffcbf74f2685": {
+            "id": "67f52749-2c15-4dc8-1f30-ffcbf74f2685",
+            "type": "text",
+            "name": "Text",
+            "parentId": "a361f7c4-ad2e-48d7-18ea-49db53b81162",
+            "childIndex": 43,
+            "point": [
+              1153.6,
+              475.18
+            ],
+            "rotation": 0,
+            "text": "Coding",
+            "style": {
+              "color": "lightGray",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 0.725,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "7bf82cc1-36c7-4ada-1a56-546c05f7d2f4": {
+            "id": "7bf82cc1-36c7-4ada-1a56-546c05f7d2f4",
+            "type": "text",
+            "name": "Text",
+            "parentId": "a361f7c4-ad2e-48d7-18ea-49db53b81162",
+            "childIndex": 44,
+            "point": [
+              967.51,
+              433.19
+            ],
+            "rotation": 0,
+            "text": "NC",
+            "style": {
+              "color": "white",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 0.8157894736842105,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "d925af9b-221c-4171-185a-5afaabf6aff4": {
+            "id": "d925af9b-221c-4171-185a-5afaabf6aff4",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "a361f7c4-ad2e-48d7-18ea-49db53b81162",
+            "childIndex": 45,
+            "point": [
+              998.51,
+              438.19
+            ],
+            "size": [
+              33,
+              19
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "red",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "f2b1273d-b9da-40b1-08e9-6e2379b6d24e": {
+            "id": "f2b1273d-b9da-40b1-08e9-6e2379b6d24e",
+            "type": "draw",
+            "name": "Draw",
+            "parentId": "a361f7c4-ad2e-48d7-18ea-49db53b81162",
+            "childIndex": 46,
+            "point": [
+              1005.51,
+              442.19
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "red",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "points": [
+              [
+                5,
+                10,
+                0.5
+              ],
+              [
+                5,
+                10,
+                0.5
+              ],
+              [
+                6,
+                9,
+                0.5
+              ],
+              [
+                7,
+                9,
+                0.5
+              ],
+              [
+                8,
+                9,
+                0.5
+              ],
+              [
+                9,
+                9,
+                0.5
+              ],
+              [
+                10,
+                9,
+                0.5
+              ],
+              [
+                11,
+                8,
+                0.5
+              ],
+              [
+                12,
+                8,
+                0.5
+              ],
+              [
+                13,
+                8,
+                0.5
+              ],
+              [
+                14,
+                8,
+                0.5
+              ],
+              [
+                15,
+                8,
+                0.5
+              ],
+              [
+                16,
+                8,
+                0.5
+              ],
+              [
+                17,
+                8,
+                0.5
+              ],
+              [
+                18,
+                8,
+                0.5
+              ],
+              [
+                19,
+                8,
+                0.5
+              ],
+              [
+                19,
+                7,
+                0.5
+              ],
+              [
+                19,
+                6,
+                0.5
+              ],
+              [
+                19,
+                5,
+                0.5
+              ],
+              [
+                19,
+                4,
+                0.5
+              ],
+              [
+                19,
+                3,
+                0.5
+              ],
+              [
+                19,
+                2,
+                0.5
+              ],
+              [
+                19,
+                1,
+                0.5
+              ],
+              [
+                19,
+                0,
+                0.5
+              ],
+              [
+                18,
+                0,
+                0.5
+              ],
+              [
+                17,
+                0,
+                0.5
+              ],
+              [
+                16,
+                0,
+                0.5
+              ],
+              [
+                15,
+                0,
+                0.5
+              ],
+              [
+                14,
+                0,
+                0.5
+              ],
+              [
+                13,
+                0,
+                0.5
+              ],
+              [
+                12,
+                0,
+                0.5
+              ],
+              [
+                11,
+                0,
+                0.5
+              ],
+              [
+                10,
+                0,
+                0.5
+              ],
+              [
+                9,
+                0,
+                0.5
+              ],
+              [
+                8,
+                0,
+                0.5
+              ],
+              [
+                7,
+                0,
+                0.5
+              ],
+              [
+                6,
+                0,
+                0.5
+              ],
+              [
+                5,
+                0,
+                0.5
+              ],
+              [
+                4,
+                0,
+                0.5
+              ],
+              [
+                3,
+                0,
+                0.5
+              ],
+              [
+                2,
+                0,
+                0.5
+              ],
+              [
+                1,
+                0,
+                0.5
+              ],
+              [
+                0,
+                0,
+                0.5
+              ],
+              [
+                0,
+                1,
+                0.5
+              ],
+              [
+                0,
+                2,
+                0.5
+              ],
+              [
+                0,
+                3,
+                0.5
+              ],
+              [
+                0,
+                4,
+                0.5
+              ],
+              [
+                0,
+                5,
+                0.5
+              ],
+              [
+                0,
+                6,
+                0.5
+              ],
+              [
+                0,
+                7,
+                0.5
+              ],
+              [
+                0,
+                8,
+                0.5
+              ],
+              [
+                0,
+                9,
+                0.5
+              ],
+              [
+                1,
+                9,
+                0.5
+              ],
+              [
+                3,
+                9,
+                0.5
+              ],
+              [
+                4,
+                9,
+                0.5
+              ],
+              [
+                5,
+                9,
+                0.5
+              ],
+              [
+                6,
+                9,
+                0.5
+              ],
+              [
+                7,
+                9,
+                0.5
+              ],
+              [
+                8,
+                9,
+                0.5
+              ],
+              [
+                9,
+                9,
+                0.5
+              ],
+              [
+                10,
+                9,
+                0.5
+              ],
+              [
+                11,
+                9,
+                0.5
+              ],
+              [
+                12,
+                9,
+                0.5
+              ],
+              [
+                13,
+                9,
+                0.5
+              ],
+              [
+                13,
+                8,
+                0.5
+              ],
+              [
+                14,
+                7,
+                0.5
+              ],
+              [
+                15,
+                7,
+                0.5
+              ],
+              [
+                15,
+                6,
+                0.5
+              ],
+              [
+                16,
+                6,
+                0.5
+              ],
+              [
+                15,
+                6,
+                0.5
+              ],
+              [
+                14,
+                6,
+                0.5
+              ],
+              [
+                13,
+                6,
+                0.5
+              ],
+              [
+                12,
+                6,
+                0.5
+              ],
+              [
+                11,
+                5,
+                0.5
+              ],
+              [
+                10,
+                5,
+                0.5
+              ],
+              [
+                9,
+                5,
+                0.5
+              ],
+              [
+                8,
+                5,
+                0.5
+              ],
+              [
+                9,
+                5,
+                0.5
+              ],
+              [
+                10,
+                5,
+                0.5
+              ],
+              [
+                11,
+                5,
+                0.5
+              ],
+              [
+                12,
+                5,
+                0.5
+              ],
+              [
+                13,
+                5,
+                0.5
+              ],
+              [
+                14,
+                5,
+                0.5
+              ],
+              [
+                15,
+                5,
+                0.5
+              ],
+              [
+                16,
+                5,
+                0.5
+              ],
+              [
+                17,
+                5,
+                0.5
+              ],
+              [
+                18,
+                5,
+                0.5
+              ],
+              [
+                19,
+                5,
+                0.5
+              ],
+              [
+                20,
+                5,
+                0.5
+              ],
+              [
+                21,
+                5,
+                0.5
+              ],
+              [
+                21,
+                6,
+                0.5
+              ],
+              [
+                21,
+                7,
+                0.5
+              ],
+              [
+                21,
+                8,
+                0.5
+              ],
+              [
+                20,
+                8,
+                0.5
+              ],
+              [
+                19,
+                8,
+                0.5
+              ],
+              [
+                18,
+                8,
+                0.5
+              ],
+              [
+                17,
+                8,
+                0.5
+              ],
+              [
+                16,
+                8,
+                0.5
+              ],
+              [
+                15,
+                8,
+                0.5
+              ],
+              [
+                14,
+                8,
+                0.5
+              ],
+              [
+                13,
+                8,
+                0.5
+              ],
+              [
+                12,
+                8,
+                0.5
+              ],
+              [
+                11,
+                8,
+                0.5
+              ],
+              [
+                10,
+                8,
+                0.5
+              ],
+              [
+                9,
+                8,
+                0.5
+              ],
+              [
+                8,
+                7,
+                0.5
+              ],
+              [
+                7,
+                7,
+                0.5
+              ],
+              [
+                6,
+                7,
+                0.5
+              ],
+              [
+                5,
+                7,
+                0.5
+              ],
+              [
+                4,
+                6,
+                0.5
+              ],
+              [
+                4,
+                5,
+                0.5
+              ],
+              [
+                4,
+                4,
+                0.5
+              ],
+              [
+                4,
+                3,
+                0.5
+              ]
+            ],
+            "isComplete": true
+          },
+          "b14a1691-337d-4d40-01a5-17783980655d": {
+            "id": "b14a1691-337d-4d40-01a5-17783980655d",
+            "type": "text",
+            "name": "Text",
+            "parentId": "a361f7c4-ad2e-48d7-18ea-49db53b81162",
+            "childIndex": 47,
+            "point": [
+              993.51,
+              430.19
+            ],
+            "rotation": 0,
+            "text": "news",
+            "style": {
+              "color": "lightGray",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 0.7368421052631579,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "e23cbea5-8f4f-47bc-2820-0b792d71955d": {
+            "id": "e23cbea5-8f4f-47bc-2820-0b792d71955d",
+            "type": "text",
+            "name": "Text",
+            "parentId": "a361f7c4-ad2e-48d7-18ea-49db53b81162",
+            "childIndex": 48,
+            "point": [
+              1181.01,
+              422.19
+            ],
+            "rotation": 0,
+            "text": "login",
+            "style": {
+              "color": "blue",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "8991d53b-a0c8-4e47-1cfa-eb7a792827e5": {
+            "id": "8991d53b-a0c8-4e47-1cfa-eb7a792827e5",
+            "type": "arrow",
+            "name": "Arrow",
+            "parentId": "a361f7c4-ad2e-48d7-18ea-49db53b81162",
+            "childIndex": 49,
+            "point": [
+              1181.51,
+              457.19
+            ],
+            "rotation": 0,
+            "bend": 0,
+            "handles": {
+              "start": {
+                "id": "start",
+                "index": 0,
+                "point": [
+                  0,
+                  0
+                ],
+                "canBind": true
+              },
+              "end": {
+                "id": "end",
+                "index": 1,
+                "point": [
+                  51,
+                  0
+                ],
+                "canBind": true
+              },
+              "bend": {
+                "id": "bend",
+                "index": 2,
+                "point": [
+                  25.5,
+                  0
+                ]
+              }
+            },
+            "decorations": {},
+            "style": {
+              "color": "lightGray",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "44272a79-a0f0-4f36-3737-f46085c8c41e": {
+            "id": "44272a79-a0f0-4f36-3737-f46085c8c41e",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "a361f7c4-ad2e-48d7-18ea-49db53b81162",
+            "childIndex": 50,
+            "point": [
+              968.36,
+              720.01
+            ],
+            "size": [
+              257,
+              82
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "lightGray",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": " ",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "98cda666-6721-444c-324b-d8ea8f512cac": {
+            "id": "98cda666-6721-444c-324b-d8ea8f512cac",
+            "type": "text",
+            "name": "Text",
+            "parentId": "a361f7c4-ad2e-48d7-18ea-49db53b81162",
+            "childIndex": 51,
+            "point": [
+              992.36,
+              727.01
+            ],
+            "rotation": 0,
+            "text": "Add a comment here...",
+            "style": {
+              "color": "gray",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 0.6052631578947371,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "2d99d972-ed0c-4aba-183c-690ea746a51d": {
+            "id": "2d99d972-ed0c-4aba-183c-690ea746a51d",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "a361f7c4-ad2e-48d7-18ea-49db53b81162",
+            "childIndex": 52,
+            "point": [
+              1126.36,
+              685.01
+            ],
+            "size": [
+              30,
+              14
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "green",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "782869fe-bcb7-4ff0-172a-ba56b5fe9ca0": {
+            "id": "782869fe-bcb7-4ff0-172a-ba56b5fe9ca0",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "a361f7c4-ad2e-48d7-18ea-49db53b81162",
+            "childIndex": 53,
+            "point": [
+              1167.36,
+              686.01
+            ],
+            "size": [
+              35,
+              13
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "red",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "cc97f0cb-c4c7-4fcc-29a1-6a151c94a31a": {
+            "id": "cc97f0cb-c4c7-4fcc-29a1-6a151c94a31a",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "a361f7c4-ad2e-48d7-18ea-49db53b81162",
+            "childIndex": 54,
+            "point": [
+              976.36,
+              552.01
+            ],
+            "size": [
+              247,
+              157
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "lightGray",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "db078fde-c5e5-400d-0e5b-66f3aa0f7ef1": {
+            "id": "db078fde-c5e5-400d-0e5b-66f3aa0f7ef1",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "a361f7c4-ad2e-48d7-18ea-49db53b81162",
+            "childIndex": 55,
+            "point": [
+              1291.63,
+              412.27
+            ],
+            "size": [
+              310.35,
+              410.55
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "orange",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "f1283a0d-7bb1-477a-20a4-2f15592d106b": {
+            "id": "f1283a0d-7bb1-477a-20a4-2f15592d106b",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "a361f7c4-ad2e-48d7-18ea-49db53b81162",
+            "childIndex": 56,
+            "point": [
+              1302.29,
+              510.69
+            ],
+            "size": [
+              285.98,
+              294.86
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "gray",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "096bb36d-dbb4-48d5-3c29-209072d679e3": {
+            "id": "096bb36d-dbb4-48d5-3c29-209072d679e3",
+            "type": "text",
+            "name": "Text",
+            "parentId": "a361f7c4-ad2e-48d7-18ea-49db53b81162",
+            "childIndex": 57,
+            "point": [
+              1355.79,
+              600.88
+            ],
+            "rotation": 0,
+            "text": "imput username here ....",
+            "style": {
+              "color": "lightGray",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 0.7081533428221194,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "41fccc7e-504f-469b-168e-2bc843939779": {
+            "id": "41fccc7e-504f-469b-168e-2bc843939779",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "a361f7c4-ad2e-48d7-18ea-49db53b81162",
+            "childIndex": 58,
+            "point": [
+              1343.17,
+              601.25
+            ],
+            "size": [
+              198.3,
+              36.99
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "gray",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "1360ac2b-8dea-4245-3c3b-5211393a0bc6": {
+            "id": "1360ac2b-8dea-4245-3c3b-5211393a0bc6",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "a361f7c4-ad2e-48d7-18ea-49db53b81162",
+            "childIndex": 59,
+            "point": [
+              1360.52,
+              643.21
+            ],
+            "size": [
+              164.29,
+              39.95
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "green",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "5d5d66e6-435c-4a93-3875-5cbcc02035e7": {
+            "id": "5d5d66e6-435c-4a93-3875-5cbcc02035e7",
+            "type": "text",
+            "name": "Text",
+            "parentId": "a361f7c4-ad2e-48d7-18ea-49db53b81162",
+            "childIndex": 60,
+            "point": [
+              1408.29,
+              642.68
+            ],
+            "rotation": 0,
+            "text": "LOG IN ",
+            "style": {
+              "color": "cyan",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 0.8679796580915106,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "530aac15-686c-4f34-2e36-622faa507e25": {
+            "id": "530aac15-686c-4f34-2e36-622faa507e25",
+            "type": "text",
+            "name": "Text",
+            "parentId": "a361f7c4-ad2e-48d7-18ea-49db53b81162",
+            "childIndex": 61,
+            "point": [
+              1522.87,
+              433.56
+            ],
+            "rotation": 0,
+            "text": "LOG IN ",
+            "style": {
+              "color": "cyan",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 0.7119450373956332,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "47025342-11e0-40c6-3bfc-ab073e136283": {
+            "id": "47025342-11e0-40c6-3bfc-ab073e136283",
+            "type": "ellipse",
+            "name": "Ellipse",
+            "parentId": "a361f7c4-ad2e-48d7-18ea-49db53b81162",
+            "childIndex": 62,
+            "point": [
+              1419.85,
+              528.41
+            ],
+            "radius": [
+              27.91967036057204,
+              30.852735647484984
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "cyan",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "023d3a6b-4fde-4adf-14d9-49b17e381d5f": {
+            "id": "023d3a6b-4fde-4adf-14d9-49b17e381d5f",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "a361f7c4-ad2e-48d7-18ea-49db53b81162",
+            "childIndex": 63,
+            "point": [
+              1308.17,
+              429.01
+            ],
+            "size": [
+              278.23,
+              51.42
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "gray",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "34fddac4-baf3-41e2-00af-26ba46b41ccf": {
+            "id": "34fddac4-baf3-41e2-00af-26ba46b41ccf",
+            "type": "text",
+            "name": "Text",
+            "parentId": "a361f7c4-ad2e-48d7-18ea-49db53b81162",
+            "childIndex": 64,
+            "point": [
+              1311.06,
+              435.84
+            ],
+            "rotation": 0,
+            "text": "NC",
+            "style": {
+              "color": "white",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 0.7356765386421542,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "a95e26be-1597-4d27-3556-d2bb81937ada": {
+            "id": "a95e26be-1597-4d27-3556-d2bb81937ada",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "a361f7c4-ad2e-48d7-18ea-49db53b81162",
+            "childIndex": 65,
+            "point": [
+              1340.9,
+              441.56
+            ],
+            "size": [
+              31.78,
+              21.71
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "red",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "94516373-848c-4b9b-38bf-712f063b85f1": {
+            "id": "94516373-848c-4b9b-38bf-712f063b85f1",
+            "type": "draw",
+            "name": "Draw",
+            "parentId": "a361f7c4-ad2e-48d7-18ea-49db53b81162",
+            "childIndex": 66,
+            "point": [
+              1347.64,
+              446.13
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "red",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "points": [
+              [
+                4.813736269064145,
+                11.426939128698143,
+                0.5
+              ],
+              [
+                4.813736269064145,
+                11.426939128698143,
+                0.5
+              ],
+              [
+                5.7764835228769735,
+                10.284245215828328,
+                0.5
+              ],
+              [
+                6.739230776689801,
+                10.284245215828328,
+                0.5
+              ],
+              [
+                7.70197803050263,
+                10.284245215828328,
+                0.5
+              ],
+              [
+                8.66472528431546,
+                10.284245215828328,
+                0.5
+              ],
+              [
+                9.62747253812829,
+                10.284245215828328,
+                0.5
+              ],
+              [
+                10.590219791941118,
+                9.141551302958515,
+                0.5
+              ],
+              [
+                11.552967045753947,
+                9.141551302958515,
+                0.5
+              ],
+              [
+                12.515714299566776,
+                9.141551302958515,
+                0.5
+              ],
+              [
+                13.478461553379603,
+                9.141551302958515,
+                0.5
+              ],
+              [
+                14.441208807192435,
+                9.141551302958515,
+                0.5
+              ],
+              [
+                15.40395606100526,
+                9.141551302958515,
+                0.5
+              ],
+              [
+                16.36670331481809,
+                9.141551302958515,
+                0.5
+              ],
+              [
+                17.32945056863092,
+                9.141551302958515,
+                0.5
+              ],
+              [
+                18.292197822443747,
+                9.141551302958515,
+                0.5
+              ],
+              [
+                18.292197822443747,
+                7.998857390088699,
+                0.5
+              ],
+              [
+                18.292197822443747,
+                6.856163477218885,
+                0.5
+              ],
+              [
+                18.292197822443747,
+                5.713469564349071,
+                0.5
+              ],
+              [
+                18.292197822443747,
+                4.5707756514792575,
+                0.5
+              ],
+              [
+                18.292197822443747,
+                3.4280817386094427,
+                0.5
+              ],
+              [
+                18.292197822443747,
+                2.2853878257396287,
+                0.5
+              ],
+              [
+                18.292197822443747,
+                1.1426939128698144,
+                0.5
+              ],
+              [
+                18.292197822443747,
+                0,
+                0.5
+              ],
+              [
+                17.32945056863092,
+                0,
+                0.5
+              ],
+              [
+                16.36670331481809,
+                0,
+                0.5
+              ],
+              [
+                15.40395606100526,
+                0,
+                0.5
+              ],
+              [
+                14.441208807192435,
+                0,
+                0.5
+              ],
+              [
+                13.478461553379603,
+                0,
+                0.5
+              ],
+              [
+                12.515714299566776,
+                0,
+                0.5
+              ],
+              [
+                11.552967045753947,
+                0,
+                0.5
+              ],
+              [
+                10.590219791941118,
+                0,
+                0.5
+              ],
+              [
+                9.62747253812829,
+                0,
+                0.5
+              ],
+              [
+                8.66472528431546,
+                0,
+                0.5
+              ],
+              [
+                7.70197803050263,
+                0,
+                0.5
+              ],
+              [
+                6.739230776689801,
+                0,
+                0.5
+              ],
+              [
+                5.7764835228769735,
+                0,
+                0.5
+              ],
+              [
+                4.813736269064145,
+                0,
+                0.5
+              ],
+              [
+                3.850989015251315,
+                0,
+                0.5
+              ],
+              [
+                2.8882417614384868,
+                0,
+                0.5
+              ],
+              [
+                1.9254945076256575,
+                0,
+                0.5
+              ],
+              [
+                0.9627472538128288,
+                0,
+                0.5
+              ],
+              [
+                0,
+                0,
+                0.5
+              ],
+              [
+                0,
+                1.1426939128698144,
+                0.5
+              ],
+              [
+                0,
+                2.2853878257396287,
+                0.5
+              ],
+              [
+                0,
+                3.4280817386094427,
+                0.5
+              ],
+              [
+                0,
+                4.5707756514792575,
+                0.5
+              ],
+              [
+                0,
+                5.713469564349071,
+                0.5
+              ],
+              [
+                0,
+                6.856163477218885,
+                0.5
+              ],
+              [
+                0,
+                7.998857390088699,
+                0.5
+              ],
+              [
+                0,
+                9.141551302958515,
+                0.5
+              ],
+              [
+                0,
+                10.284245215828328,
+                0.5
+              ],
+              [
+                0.9627472538128288,
+                10.284245215828328,
+                0.5
+              ],
+              [
+                2.8882417614384868,
+                10.284245215828328,
+                0.5
+              ],
+              [
+                3.850989015251315,
+                10.284245215828328,
+                0.5
+              ],
+              [
+                4.813736269064145,
+                10.284245215828328,
+                0.5
+              ],
+              [
+                5.7764835228769735,
+                10.284245215828328,
+                0.5
+              ],
+              [
+                6.739230776689801,
+                10.284245215828328,
+                0.5
+              ],
+              [
+                7.70197803050263,
+                10.284245215828328,
+                0.5
+              ],
+              [
+                8.66472528431546,
+                10.284245215828328,
+                0.5
+              ],
+              [
+                9.62747253812829,
+                10.284245215828328,
+                0.5
+              ],
+              [
+                10.590219791941118,
+                10.284245215828328,
+                0.5
+              ],
+              [
+                11.552967045753947,
+                10.284245215828328,
+                0.5
+              ],
+              [
+                12.515714299566776,
+                10.284245215828328,
+                0.5
+              ],
+              [
+                12.515714299566776,
+                9.141551302958515,
+                0.5
+              ],
+              [
+                13.478461553379603,
+                7.998857390088699,
+                0.5
+              ],
+              [
+                14.441208807192435,
+                7.998857390088699,
+                0.5
+              ],
+              [
+                14.441208807192435,
+                6.856163477218885,
+                0.5
+              ],
+              [
+                15.40395606100526,
+                6.856163477218885,
+                0.5
+              ],
+              [
+                14.441208807192435,
+                6.856163477218885,
+                0.5
+              ],
+              [
+                13.478461553379603,
+                6.856163477218885,
+                0.5
+              ],
+              [
+                12.515714299566776,
+                6.856163477218885,
+                0.5
+              ],
+              [
+                11.552967045753947,
+                6.856163477218885,
+                0.5
+              ],
+              [
+                10.590219791941118,
+                5.713469564349071,
+                0.5
+              ],
+              [
+                9.62747253812829,
+                5.713469564349071,
+                0.5
+              ],
+              [
+                8.66472528431546,
+                5.713469564349071,
+                0.5
+              ],
+              [
+                7.70197803050263,
+                5.713469564349071,
+                0.5
+              ],
+              [
+                8.66472528431546,
+                5.713469564349071,
+                0.5
+              ],
+              [
+                9.62747253812829,
+                5.713469564349071,
+                0.5
+              ],
+              [
+                10.590219791941118,
+                5.713469564349071,
+                0.5
+              ],
+              [
+                11.552967045753947,
+                5.713469564349071,
+                0.5
+              ],
+              [
+                12.515714299566776,
+                5.713469564349071,
+                0.5
+              ],
+              [
+                13.478461553379603,
+                5.713469564349071,
+                0.5
+              ],
+              [
+                14.441208807192435,
+                5.713469564349071,
+                0.5
+              ],
+              [
+                15.40395606100526,
+                5.713469564349071,
+                0.5
+              ],
+              [
+                16.36670331481809,
+                5.713469564349071,
+                0.5
+              ],
+              [
+                17.32945056863092,
+                5.713469564349071,
+                0.5
+              ],
+              [
+                18.292197822443747,
+                5.713469564349071,
+                0.5
+              ],
+              [
+                19.25494507625658,
+                5.713469564349071,
+                0.5
+              ],
+              [
+                20.217692330069408,
+                5.713469564349071,
+                0.5
+              ],
+              [
+                20.217692330069408,
+                6.856163477218885,
+                0.5
+              ],
+              [
+                20.217692330069408,
+                7.998857390088699,
+                0.5
+              ],
+              [
+                20.217692330069408,
+                9.141551302958515,
+                0.5
+              ],
+              [
+                19.25494507625658,
+                9.141551302958515,
+                0.5
+              ],
+              [
+                18.292197822443747,
+                9.141551302958515,
+                0.5
+              ],
+              [
+                17.32945056863092,
+                9.141551302958515,
+                0.5
+              ],
+              [
+                16.36670331481809,
+                9.141551302958515,
+                0.5
+              ],
+              [
+                15.40395606100526,
+                9.141551302958515,
+                0.5
+              ],
+              [
+                14.441208807192435,
+                9.141551302958515,
+                0.5
+              ],
+              [
+                13.478461553379603,
+                9.141551302958515,
+                0.5
+              ],
+              [
+                12.515714299566776,
+                9.141551302958515,
+                0.5
+              ],
+              [
+                11.552967045753947,
+                9.141551302958515,
+                0.5
+              ],
+              [
+                10.590219791941118,
+                9.141551302958515,
+                0.5
+              ],
+              [
+                9.62747253812829,
+                9.141551302958515,
+                0.5
+              ],
+              [
+                8.66472528431546,
+                9.141551302958515,
+                0.5
+              ],
+              [
+                7.70197803050263,
+                7.998857390088699,
+                0.5
+              ],
+              [
+                6.739230776689801,
+                7.998857390088699,
+                0.5
+              ],
+              [
+                5.7764835228769735,
+                7.998857390088699,
+                0.5
+              ],
+              [
+                4.813736269064145,
+                7.998857390088699,
+                0.5
+              ],
+              [
+                3.850989015251315,
+                6.856163477218885,
+                0.5
+              ],
+              [
+                3.850989015251315,
+                5.713469564349071,
+                0.5
+              ],
+              [
+                3.850989015251315,
+                4.5707756514792575,
+                0.5
+              ],
+              [
+                3.850989015251315,
+                3.4280817386094427,
+                0.5
+              ]
+            ],
+            "isComplete": true
+          },
+          "799364a7-7b9b-4d4e-2434-615d31bb27d5": {
+            "id": "799364a7-7b9b-4d4e-2434-615d31bb27d5",
+            "type": "text",
+            "name": "Text",
+            "parentId": "a361f7c4-ad2e-48d7-18ea-49db53b81162",
+            "childIndex": 67,
+            "point": [
+              1336.09,
+              436.13
+            ],
+            "rotation": 0,
+            "text": "news",
+            "style": {
+              "color": "white",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 0.6644820349025908,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "cd26595b-2dbe-4369-1eac-1a27e8b72042": {
+            "id": "cd26595b-2dbe-4369-1eac-1a27e8b72042",
+            "type": "text",
+            "name": "Text",
+            "parentId": "a361f7c4-ad2e-48d7-18ea-49db53b81162",
+            "childIndex": 70,
+            "point": [
+              1303.87,
+              365.17
+            ],
+            "rotation": 0,
+            "text": "LOG IN PAGE COMPONENET",
+            "style": {
+              "color": "yellow",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1.0813451156995537,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          }
+        },
         "bindings": {}
       }
     },
