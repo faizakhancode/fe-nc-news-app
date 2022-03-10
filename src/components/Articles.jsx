@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
-import {Link} from "react-router-dom";
 import * as api from "./utils/api.js";
-import SingleArticle from "./SingleArticle.jsx";
+import ArticleCard from "./ArticleCard.jsx";
 import { useParams } from "react-router-dom";
 
 export default function Articles() {
@@ -31,7 +30,7 @@ export default function Articles() {
         <section className="homepage_article_list">
             {articles.map(({ article_id, title, topic, author, body, votes}) => {
                 return (
-                    <SingleArticle 
+                    <ArticleCard
                     key={article_id}
                     article_id={article_id}
                     title={title}

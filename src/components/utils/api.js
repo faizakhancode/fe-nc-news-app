@@ -17,3 +17,15 @@ export const getTopics = () => {
     return data.topics;
   });
 };
+
+export const getSingleArticle = (id) => {
+  return newsApi.get(`articles/${id}`).then(({ data }) => {
+    return data.article;
+  });
+};
+
+export const getComments = (id) => {
+  return newsApi.get(`articles/${id}/comments`).then(({ data }) => {
+    return data.comments;
+  });
+};
