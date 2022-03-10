@@ -11,11 +11,11 @@ const [error, setError] = useState(null);
 const {article_id} = useParams();
 
 useEffect(() => {
+    setError(null);
     setIsLoading(true);
     getSingleArticle(article_id).then((articlesFromApi) => {
         setArticle(articlesFromApi)
         setIsLoading(false)
-        setError(null)
     }) .catch((err) => {
         setError(err.message);
     })
