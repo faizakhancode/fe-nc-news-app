@@ -20,12 +20,12 @@ useEffect(() => {
             <ul>
                 {comments.map((comment)=> {
                     return (
-                        <li>
-                            <p> {comment.author} </p>
+                        <ul className='single_Article_comments'>
+                            <p> Posted by:{comment.author} </p>
                             <p> {comment.body} </p>
                             <p>{String(comment.created_at).substring(0,10)}</p>
                             <p> {comment.votes} </p>
-                        </li>
+                        </ul>
                     )
                 })}
             </ul>

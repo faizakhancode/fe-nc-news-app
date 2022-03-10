@@ -34,13 +34,44 @@
 
 /* ----ALL ARTICLES ----- */
 .homepage_article_list {
-  border: 10px solid #e98a1544;
+  border: 10px solid #a39f9b21;
+  text-decoration: none;
   border-radius: 20px;
   padding: 20px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 1em;
   margin-top: 50px;
+}
+/* ---ALL LINKS--- */
+a:link {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.911);
+}
+a:visited {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.322);
+}
+
+/* ----ALL ARTICLE CARDS --- */
+.articles_CardArticle {
+  border: 1px solid rgb(158, 147, 147);
+  padding: 10px;
+  box-shadow: 4px 8px #8888883a;
+}
+/*------ ARTICLE COMMENTS-----*/
+.single_Article_comments {
+  border: 1px solid rgb(158, 147, 147);
+  border-radius: 20px;
+  padding: 10px;
+  box-shadow: 5px 10px #8888888e;
+  margin-top: 30px;
+  margin-right: 30px;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background-color: #ebe4e628;
 }
 
 /* -- WEBSITE VIEW GRID -- */
