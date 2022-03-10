@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import {Link} from "react-router-dom";
 import * as api from "./utils/api.js";
 import ArticleCard from "./ArticleCard.jsx";
 import { useParams } from "react-router-dom";

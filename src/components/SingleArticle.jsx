@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom"
 import { getSingleArticle } from "./utils/api";
+import ArticleComments from './ArticleComments'
 
 
 export default function SingleArticle() {
@@ -35,5 +36,6 @@ if(isLoading) return <p> Loading....</p>
             <p className="single_Article_topic"> {article.topic}</p>
             <p className="single_Article_votes">{article.votes}</p>
         </article>
+        <ArticleComments/>
     </article>)
 }
