@@ -29,3 +29,17 @@ export const getComments = (id) => {
     return data.comments;
   });
 };
+
+export const getUsers = () => {
+  return newsApi.get('/users').then(({ data }) => {
+    return data.users;
+  });
+};
+
+export const patchArticleVotes = (article_id, inc_votes) => {
+  return newsApi
+    .patch(`/articles/${article_id}`, { inc_votes })
+    .then(({ data }) => {
+      return data.articles;
+    });
+};

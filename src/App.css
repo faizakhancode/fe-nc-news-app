@@ -22,11 +22,16 @@
   height: 70px;
   border-radius: 50%;
 }
+.Login_btn {
+  border-radius: 10px;
+  padding: 5px;
+  border: rgba(221, 109, 34, 0.836);
+}
 
 /* --- TOPIC LINKS --- */
 .header_topic_navlink {
   align-items: center;
-  border: 1px solid rgba(221, 109, 34, 0.822);
+  border: 1px solid rgba(221, 109, 34, 0.644);
   border-radius: 10px;
   padding: 5px;
   color: rgba(53, 51, 51, 0.63);
@@ -34,7 +39,8 @@
 
 /* ----ALL ARTICLES ----- */
 .homepage_article_list {
-  border: 10px solid #a39f9b21;
+  border: 10px #e98a1594;
+  background-color: #e98a1594;
   text-decoration: none;
   border-radius: 20px;
   padding: 20px;
@@ -46,6 +52,7 @@
 /* ---ALL LINKS--- */
 a:link {
   text-decoration: none;
+  margin-inline: 15px;
   color: rgba(0, 0, 0, 0.911);
 }
 a:visited {
@@ -56,6 +63,7 @@ a:visited {
 /* ----ALL ARTICLE CARDS --- */
 .articles_CardArticle {
   border: 1px solid rgb(158, 147, 147);
+  background-color: antiquewhite;
   padding: 10px;
   box-shadow: 4px 8px #8888883a;
 }
