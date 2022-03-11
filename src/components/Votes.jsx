@@ -7,9 +7,7 @@ export default function Votes ({votes, article_id}) {
     const [articleVotes, setArticleVotes] = useState(0)
  
 useEffect(() => {
-
 })
-
     const increaseVotes = () => {
         setArticleVotes ((votes) => votes +1
         )
@@ -18,16 +16,10 @@ useEffect(() => {
         })
 
     }
-
-
-
     return (
         <section>
             <button onClick={increaseVotes}> Vote Total:
-            {articleVotes + votes}</button>
-
-            
+            {articleVotes + votes}</button>   
         </section>
-  
     )
 }
